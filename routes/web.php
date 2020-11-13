@@ -22,6 +22,10 @@ Route::get('/lusitha', function () {
     return view('auth.newLogin');
 });
 
+Route::get('/dashboard', function () {
+    return view('index');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
