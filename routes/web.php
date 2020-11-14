@@ -22,8 +22,8 @@ Route::get('/lusitha', function () {
     return view('auth.newLogin');
 });
 
-Route::get('/dashboard', function () {
-    return view('index');
+Route::get('/reception', function () {
+    return view('reception.dashboard');
 });
 
 Auth::routes();
