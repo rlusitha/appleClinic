@@ -50,20 +50,23 @@
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                                <i class="fas fa-user" aria-hidden="true"></i>Patient</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">Dashboard 1</a>
+                                    <a href="">
+                                    <i class="fa fa-user-plus" aria-hidden="true"></i>Register Patient</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Dashboard 2</a>
+                                    <a href="index2.html">
+                                    <i class="fa fa-users" aria-hidden="true"></i>View Patient</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Dashboard 3</a>
+                                    <a href="index3.html">
+                                    <i class="fa fa-user-times" aria-hidden="true"></i>Delete Patient</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="index4.html">Dashboard 4</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </li>
                         <li>

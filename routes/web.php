@@ -26,6 +26,10 @@ Route::get('/reception', function () {
     return view('reception.dashboard');
 });
 
+Route::get('/register_patient', function () {
+    return view('reception.registerPatient');
+})->name('registerPatient');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
